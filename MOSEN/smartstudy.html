@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+
+<title>mosen</title>
+</head>
+
+<body>
+<div class="header">
+	<div class="top"></div>
+	<div class="nav">
+		<div class="navinner">
+			<img class="logo" src="images/logo.png">
+			<ul class="ul_nav">
+				<li ><a  href="index.html">首页</a></li>
+				<li><a href="introduce.html">公司介绍</a></li>
+				<li><a href="smartproduct.html">智能农机</a></li>
+				<li><a class="active" href="smartstudy.html">智能研发</a></li>
+				<li><a href="plan.html">拓展规划</a></li>
+				<li><a href="future.html">农业的未来</a></li>
+				<li><a href="corperation.html">合作与销售</a></li>
+				<li><a href="internet.html">互联网+农业</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="detailbanner">
+	<div class="detailbanner_inner"><img src="images/studybanner_03.jpg"></div>
+</div>
+
+<div class="detailcontent">
+	<div class="detailcontent_inner clearfix">
+	
+		<ul class="sidenav">
+			<li><a href="#">研发记录</a></li>
+			<li><a href="#">研发报告</a></li>
+			<li><a style="border-bottom:none;"href="#">工作计划</a></li>
+		</ul>
+	    <div class="detailconright">
+	    	<div class="detlocation">您当前所在的位置 > 智能研发 > 研发记录</div>
+	    	<div class="study_con">
+	    		<div class="study_con1 clearfix">
+	    			<img class="studyicon" src="images/studycon_03.png" alt="">
+	    			<p>2013 年 7 月经过多方面考虑，希望能研发一套可以简单操作就能完成基本农事作业的机器平台，用于搭载各种农机具。</p>
+	    		</div>
+	    		<div class="study_con2 clearfix">
+	    			<img class="studyicon" src="images/studycon_06.png" alt="">
+	    			<p>2014 年 8 月在浑南新区车库内进行尝试性改进，通过了解变速箱结构，以及对变速箱拆装，采用伺服舵机带动蜗杆取代原始线控的拉伸动作。
+	    			<br/><br/><br/>总结结构:伺服机扭力输出小，经过蜗杆减速，档位变换速度低，但可以实现前进后退命令。左右转向命令需要离合器衔接控制才会稳定切入齿轮档位。但动力输出稳定，未进行油门控制。<br/><br/><img class="studyqi_img"  src="images/study_pimg_09.jpg" alt=""></p>
+	    		</div>
+	    		<div class="study_con3 clearfix">
+	    			<img class="studyicon" src="images/studycon_08.png" alt="">
+	    			<p>2014 年 10 月搬回至苏家屯陈相，经初步测试理论后，将原有档位控制杆全部拆除，更换伸缩杆，12V 直流控制，用的 DOMAN 的高压舵机驱动板，效果明显好转，在进过十余次测试后，发现分项离合器回弹系数不够，便将下部离合改为互相支撑，公用一个拉簧的结构。回弹速度足够，但是伸缩拉杆与原始在浑南设备结构相似，存在问题便是换挡时间较长，对于命令的相应较慢，但外形相对比较要标准许多。<br/><br/>2014 年 11 月控制系统初步到位，功能涵盖：OSD 视频采集系统、GPS 导航系统、红外激光取直系统、蓝牙系统、声呐避障系统、以及供电数据监测回传系统。进行组装后在遥控越野车上进行测试，误差约为±0.75M<br/><br/><img class="studyqi_img"  src="images/study_pimg_14.jpg" alt=""></p>
+	    		</div>
+	    		<div class="study_con4 clearfix">
+	    			<img class="studyicon" src="images/studycon_10.png" alt="">
+	    			<p>2015 年 01 月，设备总体组装，经过对编码器、电位器、耦合器、继电器的改进，整体协调测试，效果远远高于原先测试程度。<br/><br/><img class="studyqi_img" src="images/study_pimg_19.jpg" alt=""></p>
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+	</div>
+</div>
+	
+<div class="footer">
+	<div class="footerinner">
+		<div class="leftfooter">
+			<P><span>MOSEN &nbsp;&nbsp;沈阳沐森农业科技有限公司</span></P>
+			<p class="lfooter_p">地址：沈阳市和平区单科线58号401</p>
+			<p class="lfooter_p">电话：<span>542548844</span></p>
+		</div>
+		<div class="rightfooter">
+			<span>扫一扫<br/>微信平台</span>
+			<img src="images/weixin.jpg">
+
+		</div>
+		<p class="com_right">Copyright ©360.cn. All Rights Reserved. 京ICP证080047号  技术支持：天作星</p>
+	</div>
+</div>
+<script type="text/javascript">
+		$(".sidenav li").hover(function(){
+			$(this).addClass("hover").siblings().removeClass("hover");
+
+		},function(){
+			$(this).removeClass("hover");	
+		})
+		$(".sidenav a").hover(function(){
+			$(this).addClass("ahover").siblings().removeClass("ahover");
+
+		},function(){
+			$(this).removeClass("ahover");	
+		})
+
+	</script>
+         
+</body>
+</html>

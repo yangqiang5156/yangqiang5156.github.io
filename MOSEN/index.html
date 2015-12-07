@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="css/bannerstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+
+<title>mosen</title>
+</head>
+
+<body>
+<div class="header">
+	<div class="top"></div>
+	<div class="nav">
+		<div class="navinner">
+			<img class="logo" src="images/logo.png">
+			<ul class="ul_nav">
+				<li ><a class="active" href="index.html">首页</a></li>
+				<li><a href="introduce.html">公司介绍</a></li>
+				<li><a href="smartproduct.html">智能农机</a></li>
+				<li><a href="smartstudy.html">智能研发</a></li>
+				<li><a href="plan.html">拓展规划</a></li>
+				<li><a href="future.html">农业的未来</a></li>
+				<li><a href="corperation.html">合作与销售</a></li>
+				<li><a href="internet.html">互联网+农业</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="banner">
+<div class="banner-box">
+	<div class="bd">
+        <ul>          	    
+            <li style="background:#F3E5D8;">
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/banner_01_02.jpg" /></a>
+                </div>
+            </li>
+            <li style="background:#B01415">
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/banner_02_02.jpg" /></a>
+                </div>
+            </li>
+            <li style="background:#C49803;">
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/banner_03_02.jpg" /></a>
+                </div>
+            </li>
+            <li style="background:#FDFDF5">
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/banner_04_02.jpg" /></a>
+                </div>
+            </li>  
+         
+        </ul>
+    </div>
+    <div class="banner-btn">
+        <a class="prev" href="javascript:void(0);"></a>
+        <a class="next" href="javascript:void(0);"></a>
+        <div class="hd"><ul></ul></div>
+    </div>
+</div>
+</div>
+<div class="vediofloat">
+<div class="myvedio clearfix">
+	<div id="vedio1" class="vediolist listone"><iframe height=220 width=265 src="http://player.youku.com/embed/XMTM5NjMyNzYyOA==" frameborder=0 allowfullscreen></iframe></div>
+	<div id="vedio2" class="vediolist"><iframe height=220 width=265 src="http://player.youku.com/embed/XMTM5NjMyNzYyOA==" frameborder=0 allowfullscreen></iframe></div>
+	<div id="vedio3" class="vediolist"><iframe height=220 width=265 src="http://player.youku.com/embed/XMTM5NjMyNzYyOA==" frameborder=0 allowfullscreen></iframe></div>
+	<div id="vedio4" class="vediolist"><iframe height=220 width=265 src="http://player.youku.com/embed/XMTM5NjMyNzYyOA==" frameborder=0 allowfullscreen></iframe></div>
+</div>	
+</div>
+
+<div class="content">
+	<div class="conheader">
+		<h2>—————&nbsp;&nbsp;研发&nbsp;&nbsp;智能&nbsp;&nbsp;网络&nbsp;&nbsp;—————</h2>
+		<h2>面向未来的农业</h2>
+		<p>2013 年 7 月经过多方面考虑，希望能研发一套可以简单操作<br/>
+
+就能完成基本农事作业的机器平台，用于搭载各种农机具</p>
+	</div>
+	<div class="conpic clearfix">
+	<div class="piclist"><img src="images/pic1.jpg"><p>总结结构:伺服机扭力输出小，经过蜗杆减速，
+
+档位变换速度低，但可以实现前进后退命 令</p></div>
+	<div class="piclist middle"><img src="images/pic2.jpg"><p>总结结构:伺服机扭力输出小，经过蜗杆减速，
+
+档位变换速度低，但可以实现前进后退命 令</p></div>
+	<div class="piclist pic_last"><img src="images/pic3_03.jpg"><p>总结结构:伺服机扭力输出小，经过蜗杆减速，
+
+档位变换速度低，但可以实现前进后退命 令</p></div>
+</div>
+</div>
+<div class="footer">
+	<div class="footerinner">
+		<div class="leftfooter">
+			<P><span>MOSEN &nbsp;&nbsp;沈阳沐森农业科技有限公司</span></P>
+			<p class="lfooter_p">地址：沈阳市和平区单科线58号401</p>
+			<p class="lfooter_p">电话：<span>542548844</span></p>
+		</div>
+		<div class="rightfooter">
+			<span>扫一扫<br/>微信平台</span>
+			<img src="images/weixin.jpg">
+		</div>
+	<p class="com_right">Copyright ©360.cn. All Rights Reserved. 京ICP证080047号  技术支持：天作星</p>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".prev,.next").hover(function(){
+		$(this).stop(true,false).fadeTo("show",0.9);
+	},function(){
+		$(this).stop(true,false).fadeTo("show",0.4);
+	});
+	
+	$(".banner-box").slide({
+		titCell:".hd ul",
+		mainCell:".bd ul",
+		effect:"fold",
+		interTime:3500,
+		delayTime:500,
+		autoPlay:true,
+		autoPage:true, 
+		trigger:"click" 
+	});
+
+});
+</script>
+</body>
+</html>
