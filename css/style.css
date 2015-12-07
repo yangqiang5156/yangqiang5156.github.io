@@ -24,7 +24,7 @@ h2{font-weight: 300;}
 .logo{padding-top:15px; display: block; float:left;}
 .ul_nav{float: left; margin-left: 200px;}
 .ul_nav li{list-style-type: none; float: left; width: 100px; height: 85px; line-height: 85px; text-align: center;}
-.banner{width: 100%;background-color: #083183; background-size: cover;}
+.banner{width: 100%; background-size: cover;}
 .banner img{width: 1410px; margin: 0 auto;display: block;}
 .vediofloat{ position: relative;}
 .myvedio{width: 1440px;height: 260px; margin: 0 auto;  top: -153px; z-index: 2;  position: absolute; background-color:#fff;
