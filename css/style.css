@@ -145,7 +145,7 @@ color: #333; margin-top:8%; }
 	font-weight: 500;
 	padding:2% 0 2% 2%;
 }
-.list{float:left;margin: 1%; width: 30%; text-align: center;}
+.list{float:left;margin: 1%; width: 31%; text-align: center;}
 
 .grid{ position: relative; margin-top: 20px;}
 .post{margin-top: 2%; background-color: #fff;border: 1px solid #ddd; padding:3% 2% 2% 2%;}
